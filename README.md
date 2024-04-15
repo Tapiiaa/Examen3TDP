@@ -1,6 +1,8 @@
 * EXAMEN 3 TÉCNICAS DE PROGRAMACIÓN PEDRO ALONSO TAPIA LOBO
 * ----------------------------------------------------------
 
+Link a mi repositorio: 
+
 * Fecha: 15/04/2024
 
 Enunciado 1: Una empresa de mobiliario modular realiza ventas de varios tipos de «elementos». 
