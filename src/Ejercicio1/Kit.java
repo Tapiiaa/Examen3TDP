@@ -1,17 +1,23 @@
 package Ejercicio1;
 import java.util.List;
 import java.util.ArrayList;
-public class Kit extends Elemento{
+public class Kit implements Elemento{
     private List<Elemento> elementos;
+    private int codigo;
     private static final double DESCUENTO = 0.10; // 10% de descuento
 
     public Kit(int codigo){
-        super(codigo);
+        this.codigo = codigo;
         this.elementos = new ArrayList<>();
     }
 
     public void agregarElemento(Elemento elemento){
         elementos.add(elemento);
+    }
+
+    @Override
+    public int getCodigo() {
+        return codigo;
     }
 
     @Override

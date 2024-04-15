@@ -8,12 +8,15 @@ public class ElementoSimple implements Elemento{
     //Constructor de la clase ElementoSimple
 
     public ElementoSimple(int codigo, double precio) {
-        super(codigo);
+        this.codigo = codigo;
         this.precio = precio;
     }
 
-    @Override
-    public double getPrecio() {
+    public int getCodigo(){
+        return codigo;
+    }
+
+    public double getPrecio(){
         return precio;
     }
 }
