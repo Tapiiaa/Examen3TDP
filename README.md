@@ -1,7 +1,7 @@
 * EXAMEN 3 TÉCNICAS DE PROGRAMACIÓN PEDRO ALONSO TAPIA LOBO
 * ----------------------------------------------------------
 
-Link a mi repositorio: 
+Link a mi repositorio: https://github.com/Tapiiaa/Examen3TDP.git
 
 * Fecha: 15/04/2024
 
