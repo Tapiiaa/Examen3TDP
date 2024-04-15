@@ -1,0 +1,37 @@
+@startuml
+
+package Ejercicio1 {
+
+    interface Elemento {
+        +getCodigo() : int
+        +getPrecio() : double
+    }
+
+    class ElementoSimple {
+        -precio : double
+        -codigo : int
+        +ElementoSimple(codigo : int, precio : double)
+        +getCodigo() : int
+        +getPrecio() : double
+    }
+
+    class Kit {
+        -elementos : List<Elemento>
+        -codigo : int
+        -static DESCUENTO : final double = 0.10
+        +Kit(codigo : int)
+        +agregarElemento(elemento : Elemento) : void
+        +getCodigo() : int
+        +getPrecio() : double
+    }
+
+    class Main {
+        +main(args : String[]) : void
+    }
+
+    ElementoSimple -up-|> Elemento
+    Kit -up-|> Elemento
+    Kit "1" *--  Elemento 
+}
+
+@enduml

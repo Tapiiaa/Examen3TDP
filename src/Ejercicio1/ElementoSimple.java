@@ -19,4 +19,6 @@ public class ElementoSimple implements Elemento{
     public double getPrecio(){
         return precio;
     }
+
+
 }
